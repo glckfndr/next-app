@@ -5,7 +5,7 @@ const NewUser = () => {
   return (
     <div>
       <h3>New User</h3>
-      <Link href="/">Main Page</Link>
+      <Link href="/">Home Page</Link>
     </div>
   );
 };
