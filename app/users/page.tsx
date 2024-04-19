@@ -15,6 +15,7 @@ const UsersPage = async () => {
     <div>
       <h2>Users: </h2>
       <Link href="users/new">New User Page</Link>
+      <p>{new Date().toLocaleTimeString()}</p>
       <ul>
         {users.map((user) => (
           <li key={user.id}>{user.name}</li>
