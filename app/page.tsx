@@ -3,10 +3,9 @@ import ProductCard from "./components/ProductCard/ProductCard";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <h1>Home Page</h1>
-      <Link href="/users">Users</Link>
       <ProductCard></ProductCard>
-    </main>
+    </>
   );
 }

@@ -10,7 +10,9 @@ const UsersPage = ({ searchParams: { sortOrder } }: Props) => {
   return (
     <div>
       <h2>Users: </h2>
-      <Link href="users/new">New User Page</Link>
+      <Link href="users/new" className="text-green-500">
+        New User
+      </Link>
       <p>{new Date().toLocaleTimeString()}</p>
       <UserTable sortOrder={sortOrder} />
     </div>
