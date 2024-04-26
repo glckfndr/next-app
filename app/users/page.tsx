@@ -14,6 +14,7 @@ const UsersPage = ({ searchParams: { sortOrder } }: Props) => {
         New User
       </Link>
       <p>{new Date().toLocaleTimeString()}</p>
+
       <UserTable sortOrder={sortOrder} />
     </div>
   );
